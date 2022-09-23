@@ -1,6 +1,3 @@
-n = int(input())
-while n > 0:
-     r = n % 10 
-     print(r,end ='') 
-     n = n//10 
-     
+n = input()
+index=n[::-1]
+print(index)
